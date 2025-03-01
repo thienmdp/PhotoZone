@@ -1,0 +1,64 @@
+name: image_manager
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  rive: ^0.13.12
+  flutter_svg: ^2.0.10
+  salomon_bottom_bar: ^3.3.2
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  local_auth: ^2.2.0
+  sqflite: ^2.3.2
+  path: ^1.8.3
+  image_picker: ^1.0.7
+  camera: ^0.10.5+9
+  path_provider: ^2.1.2
+  uuid: ^4.3.3
+  cached_network_image: ^3.3.1
+  permission_handler: ^11.2.0
+  intl: ^0.18.1
+  fl_chart: ^0.66.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/logo.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/avatars/
+    - assets/Backgrounds/
+    - assets/icons/
+    - assets/RiveAssets/
+    - assets/icons/logo.png
+  fonts:
+    - family: Intel
+      fonts:
+        - asset: assets/Fonts/Inter-Regular.ttf
+        - asset: assets/Fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: assets/Fonts/Poppins-Bold.ttf
+          weight: 700
